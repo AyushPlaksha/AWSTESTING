@@ -30,8 +30,8 @@ class Navbar extends Component {
 
     render(){
       const LISTS =['Research','NewData','GCSP','Non-Tech'];
-      const List = LISTS.map(name => <li>{name}</li>);
-      console.log(List)
+      const List = LISTS.map((name,index ) => <li key={index}>{name}</li>);
+      console.log(List[0]['props'])
       return (
         <div className=''>
           <div className='running-text'>
@@ -61,7 +61,7 @@ class Navbar extends Component {
               </li>
             </ul>
           </div>
-          {(this.state.video) ? <video src={this.props.vdo} autoplay className='vedio' /> : <img src={this.props.img}  className='image'/>}
+          {(this.state.video) ? <video src={this.props.vdo} autoplay='infinite' className='vedio' /> : <img src={this.props.img}  className='image'/>}
         </div>
 
       )

@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
         <Navbar img={image} vdo={video} />
-        <h1>Hello SHALINI</h1>
+        {/* <h1>Hello SHALINI</h1> */}
+
+        
     </div>
   ); 
 }
