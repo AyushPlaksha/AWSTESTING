@@ -31,13 +31,12 @@ class Navbar extends Component {
     render(){
       const LISTS =['Research','NewData','GCSP','Non-Tech'];
       const List = LISTS.map(name => <li>{name}</li>);
+      console.log(List)
       return (
         <div className=''>
-      
           <div className='running-text'>
             <p>Sign up for Virtual Chats here. | View Academic Calendar 2022-23 here. | Admissions for TLP Class of 2024 are now open. Click here to Apply</p>
           </div>
-          
           <div className='upperNav'>
             <div className='left'>
               <div className='logo'>
