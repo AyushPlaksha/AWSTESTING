@@ -61,7 +61,7 @@ class Navbar extends Component {
               </li>
             </ul>
           </div>
-          {(this.state.video) ? <video src={this.props.vdo} autoplay='infinite' className='vedio' /> : <img src={this.props.img}  className='image'/>}
+          {/* {(this.state.video) ? <video src={this.props.vdo}  className='vedio' autoplay infinite /> : <img src={this.props.img}  className='image'/>} */}
         </div>
 
       )
