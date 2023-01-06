@@ -53,6 +53,7 @@
 .upperNav ul
 {
 list-style: none;
+display: flex;
 }
 
 .upperNav ul li

@@ -37,7 +37,7 @@ class Navbar extends Component {
           <div className='running-text'>
             <p>Sign up for Virtual Chats here. | View Academic Calendar 2022-23 here. | Admissions for TLP Class of 2024 are now open. Click here to Apply</p>
           </div>
-          <Form />
+          
           <div className='upperNav'>
             <div className='left'>
               <div className='logo'>
@@ -47,7 +47,7 @@ class Navbar extends Component {
             <div className='mid'>
               <nav>
                 <ul>
-               {List}
+                {List}
                 </ul>
               </nav>
             </div>
@@ -64,6 +64,7 @@ class Navbar extends Component {
           </div>
           {(this.state.video) ? <video src={this.props.vdo} autoplay className='vedio' /> : <img src={this.props.img}  className='image'/>}
         </div>
+
       )
     }
   }

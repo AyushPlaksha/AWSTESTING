@@ -1,15 +1,39 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Form() {
-  return (
-    <div>
-        <h1>Form Contr</h1>
-        <form>
-            <input type='text' />
-            
+export class Form extends Component {
+ 
+    constructor(props) {
+      super(props)
+    
+      this.state = {
+         username:" ",
+      }
+    }
+
+    handleForm = event =>{
+        this.setState({
+            username:event.target.value,
+        })
+       }
+
+       formSubmitHandle= event =>
+       {
+           alert(`${this.state.username}`)
+       }
+
+    render() {
+        
+ 
+ 
+    return (
+      <div>
+        <form onSubmit={this.formSubmitHandle}>
+            <input type='text' value={this.state.username}  onChange={this.handleForm} />
+            <button type='submit'>Submit</button>
         </form>
-    </div>
-  )
+      </div>
+    )
+  }
 }
 
 export default Form

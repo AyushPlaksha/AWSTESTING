@@ -2,11 +2,13 @@
 import image from './Images/Line.gif';
 import video from './Video/vdo.mp4';
 import Navbar from './Component/Navbar/Navbar';
+import Form from './Pages/Form';
 
 function App() {
   return (
     <div className="App">
         <Navbar img={image} vdo={video} />
+        <Form />
     </div>
   ); 
 }
