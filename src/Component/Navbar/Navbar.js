@@ -51,7 +51,7 @@ class Navbar extends Component {
               </nav>
             </div>
             <div className='right'>
-              <button>Apply now</button>
+              <button className='btn btn-primary'>Apply now</button>
             </div>
           </div>
           <div className='lowernav'>

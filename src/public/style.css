@@ -96,6 +96,33 @@ display: flex;
     animation: text 20s infinite;
 }
 
+.four-column
+{
+    height: 500px;
+    background-color: #c71e2c8a;
+    color: white;
+}
+.four-column1
+{
+    height: 500px;
+    background-color: #b30f0f21;
+    padding: 10px;
+    color: white;
+}
+.four-column2
+{
+    height: 500px;
+    background-color: #a0ff528f;
+    color: white;
+    padding: 10px;
+}
+.four-column3
+{
+    height: 500px;
+    background-color: #0f009656;
+    color: white;
+    padding: 10px;
+}
 
 @keyframes text
 {
