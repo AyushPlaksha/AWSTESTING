@@ -5,6 +5,7 @@ import Navbar from './Component/Navbar/Navbar';
 import Slider from './Slider/Slider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FourColumn from './Component/Navbar/Columns/FourColumn';
+import Upcomming from './Component/Upcomming/Upcomming';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <div className="App">
         <Navbar img={image} vdo={video} />
         <Slider />
-        {/* <h1>Hello SHALINI</h1> */}
         <FourColumn />
+        <Upcomming />
+      
 
     </div>
   ); 
